@@ -1,40 +1,10 @@
 {
   "todos": [
     {
-      "Title": "janta",
-      "Time": "2",
+      "Title": "ghghg",
+      "Time": "4",
       "Done": false,
       "id": 1
-    },
-    {
-      "Title": "Almoço",
-      "Time": "3",
-      "Done": false,
-      "id": 2
-    },
-    {
-      "Title": "Limpar casa",
-      "Time": "3",
-      "Done": false,
-      "id": 3
-    },
-    {
-      "Title": "Estudar",
-      "Time": "6",
-      "Done": false,
-      "id": 4
-    },
-    {
-      "Title": "Tomar banho",
-      "Time": "1",
-      "Done": false,
-      "id": 5
-    },
-    {
-      "Title": "lavar roupa",
-      "Time": "2",
-      "Done": false,
-      "id": 6
     }
   ]
 }

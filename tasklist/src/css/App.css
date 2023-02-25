@@ -16,9 +16,53 @@
     margin: 0;
 }
 
-.list-todo p, h2{
+.list-todo{
+    padding: 0 1em 2em;
+    margin: 1em 1em;
+}
+
+.list-todo h2{
+    margin-bottom: 0;
+}
+
+.list-todo p{
     text-align: center;
-    padding: .7em 0;
+}
+
+.todo{
+    border-bottom: 2px solid #444;
+    padding: 1em 0;
+}
+
+.todo-done{
+    text-decoration: line-through;
+    color: rgb(240, 98, 146);
+}
+
+.todo h3{
+    text-transform: capitalize;
+}
+
+.todo p{
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 1.5em;
+}
+
+.todo svg{
+    font-size: 1.4em;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: 1em;
+    transition: .5s;
+}
+
+.todo .trash:hover{
+    color: rgb(255, 0, 0);
+}
+
+.todo .mark-done:hover{
+    color: rgb(1, 163, 1);
 }
 
 .form-todo{
@@ -33,6 +77,11 @@
     margin-top: 0;
 }
 
+.list-todo img{
+    display: block;
+    margin: 0 auto;
+}
+ 
 .form-control{
     display: flex;
     flex-direction: column;
