@@ -1,0 +1,10 @@
+html{
+  height: 100vh;
+  background: linear-gradient(to bottom, #494949 20%, #252525);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
