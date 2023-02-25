@@ -19,10 +19,18 @@
 .list-todo{
     padding: 0 1em 2em;
     margin: 1em 1em;
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 48vh;
 }
 
-.list-todo h2{
+::-webkit-scrollbar{
+    width: 1px;
+}
+
+.title-list{
     margin-bottom: 0;
+    text-align: center;
 }
 
 .list-todo p{

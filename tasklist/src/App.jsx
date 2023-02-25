@@ -118,8 +118,8 @@ function App() {
           />
         </form>
       </div>
+      <h2 className='title-list'>Lista de tarefas</h2>
       <div className='list-todo'>
-        <h2>Lista de tarefas</h2>
         {Loding && <img src={Loading} alt='Imagem Loading'/>}
         {Todos.length === 0 && <p>Não há tarefas!</p> }
         {Todos.map((todo) => (
